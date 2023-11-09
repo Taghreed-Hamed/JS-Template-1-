@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nabar-nav .nav-item .nav-link:hover{
+color: rgb(90, 61, 23);
+font-weight: bold;
+}
+
+ 
+.card p{
+    color:rgb(255, 51, 0);
+    /* font-weight: bold; */
+    font-size: 20px;
+}
+.card button{
+    background-color: rgb(129, 111, 90);
+    /* background-color:burlywood; */
+    color:white;
+    /* border-color: burlywood;; */
+}
+.btn{
+    background-color: rgb(226, 169, 193);
+    border: rgb(226, 169, 193);
+color: black;
+display: inline;
+}
+
+.modal-body .btn{
+    background-color: rgb(245, 214, 232);
+    color: black;
+}
+
+#div1,#div2{
+    display:none;
+    background-color:rgb(238, 231, 191);
+    position: absolute;
+    z-index: 10;
+    width: 100px;
+    height: 200px;
+    border-radius: 7%;
+}
+
